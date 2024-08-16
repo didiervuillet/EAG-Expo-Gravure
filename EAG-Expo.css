@@ -1,0 +1,126 @@
+h1{
+    color:chocolate;
+}
+
+main{
+display:flex;
+flex-direction: column;
+
+}
+
+#container {
+	background-color: lightgrey;
+	width: 200px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 20px;
+	
+}
+button{
+    margin:2px;
+    width: 70px;
+    text-align:center;
+}  
+.anniv{
+	flex: 1;
+	margin: 4px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2px;
+	
+}
+.anniv membreanniv {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid black;
+	/* width: 6rem; */
+	padding: 5px;
+	background-color: lightgrey;
+	border-radius: 12px;	
+		/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.anniv membreanniv img {
+	display: block;	
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;;
+	object-fit:contain;
+	border-radius: 50px;	
+
+}
+.anniv membreanniv:hover img {
+	/* L'image est grossie de 3 */
+	-webkit-transform:scale(3) translate(0%, -20%); /* Safari et Chrome */
+	-moz-transform:scale(3) translate(0%, -20%); /* Firefox */
+	-ms-transform:scale(3) translate(0%, -20%); /* Internet Explorer 9 */
+	-o-transform:scale(3) translate(0%, -20%); /* Opera */
+	transform:scale(3) translate(0%, -20%);
+	}
+.anniv membreanniv h4 {
+	text-align: center;
+}  
+.Tree {
+	flex: 1;
+	margin: 8px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4px;
+}
+.Tree membre {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	border: 1px solid black;
+	padding: 4px;
+	background-color: lightgrey;
+	border-radius: 12px;
+	
+	
+}
+.Tree membre img {
+	display: block;
+	
+	margin-left: 20px;
+	width: 150px;
+	object-fit: cover;
+}
+.Tree membre containerElement {
+	width: 100px;
+	border: 3px solid black;
+	padding: 10px;
+	margin: 10px;
+	
+}
+.Tree membre p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.Tree membre h4 {
+	text-align: center;
+}   
+.Tree membre button {
+	text-align: center;
+	width: 60px;
+}  
+
+@media only screen and (max-width: 575.98px) 
+{
+	.Tree membre {
+		
+		display:flex;
+		flex-direction: column;
+		
+	}
+	
+	
+}
+
+
+
