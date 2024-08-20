@@ -1,3 +1,33 @@
+const reponse2 = await fetch("Artistes/ListeArtistes.json");
+const Artiste = await reponse2.json();
+
+
+const BoutonArtistes=document.createElement("button");
+BoutonArtistes.addEventListener("click", function(){ListerArtistes(Artiste)});
+BoutonArtistes.innerText="Artistes";
+document.getElementById("container").appendChild(BoutonArtistes);
+
+const BoutonVisite=document.createElement("button");
+BoutonVisite.addEventListener("click", function(){Visite()});
+BoutonVisite.innerText="Visite";
+document.getElementById("container").appendChild(BoutonVisite);
+
+
+
+function ListerArtistes(Artiste)
+{
+  console.log(Artiste);
+  const artistesContainer = document.querySelector("ListeArtistes");
+        Artiste.forEach(artiste => {
+          const nomArtiste = document.createElement("h4");
+          nomArtiste.innerText = artiste.PrenomArtiste+" "+artiste.NomArtiste;
+          artistesContainer.appendChild(nomArtiste);
+        
+        });
+}
+
+function Visite() 
+{
 const apiKey = "b000733577cbe9e78d6a4112a411960c"; // Replace with your actual API key
 const userId = "201112550@N08"; // Replace with the Flickr user ID (find this on their profile page)
 
@@ -51,3 +81,4 @@ fetchPhotos(userId)
   .catch(error => {
     console.error(error);
   });
+}

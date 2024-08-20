@@ -1,497 +1,596 @@
 [
-    {
-      "NomCompletArtiste": "ALEXIEFF Yvonne",
-      "NomArtiste": "ALEXIEFF",
-      "PrenomArtiste": "Yvonne"
-    },
-    {
-      "NomCompletArtiste": "ALIADIERE Dominique",
-      "NomArtiste": "ALIADIERE",
-      "PrenomArtiste": "Dominique"
-    },
-    {
-      "NomCompletArtiste": "ANDRIEU Caroline",
-      "NomArtiste": "ANDRIEU",
-      "PrenomArtiste": "Caroline"
-    },
-    {
-      "NomCompletArtiste": "ATMAN Michèle",
-      "NomArtiste": "ATMAN",
-      "PrenomArtiste": "Michèle"
-    },
-    {
-      "NomCompletArtiste": "ATRY Evelyne",
-      "NomArtiste": "ATRY",
-      "PrenomArtiste": "Evelyne"
-    },
-    {
-      "NomCompletArtiste": "BARBOSA Consuelo",
-      "NomArtiste": "BARBOSA",
-      "PrenomArtiste": "Consuelo"
-    },
-    {
-      "NomCompletArtiste": "BARON CIFUENTES Juan Camilo",
-      "NomArtiste": "BARON CIFUENTES",
-      "PrenomArtiste": "Juan Camilo"
-    },
-    {
-      "NomCompletArtiste": "BAZILLE Fanny",
-      "NomArtiste": "BAZILLE",
-      "PrenomArtiste": "Fanny"
-    },
-    {
-      "NomCompletArtiste": "BERTON Quentin",
-      "NomArtiste": "BERTON",
-      "PrenomArtiste": "Quentin"
-    },
-    {
-      "NomCompletArtiste": "BEYTOEÏ Abolfazi",
-      "NomArtiste": "BEYTOEÏ",
-      "PrenomArtiste": "Abolfazi"
-    },
-    {
-      "NomCompletArtiste": "BLONDEL Françoise",
-      "NomArtiste": "BLONDEL",
-      "PrenomArtiste": "Françoise"
-    },
-    {
-      "NomCompletArtiste": "BOUTON Bernard",
-      "NomArtiste": "BOUTON",
-      "PrenomArtiste": "Bernard"
-    },
-    {
-      "NomCompletArtiste": "BOUYER Caroline",
-      "NomArtiste": "BOUYER",
-      "PrenomArtiste": "Caroline"
-    },
-    {
-      "NomCompletArtiste": "BRAUD Pascale",
-      "NomArtiste": "BRAUD",
-      "PrenomArtiste": "Pascale"
-    },
-    {
-      "NomCompletArtiste": "CAILLETEAU Michel",
-      "NomArtiste": "CAILLETEAU",
-      "PrenomArtiste": "Michel"
-    },
-    {
-      "NomCompletArtiste": "CANCHARI Mariela",
-      "NomArtiste": "CANCHARI",
-      "PrenomArtiste": "Mariela"
-    },
-    {
-      "NomCompletArtiste": "CARRERA Malena",
-      "NomArtiste": "CARRERA",
-      "PrenomArtiste": "Malena"
-    },
-    {
-      "NomCompletArtiste": "CAZALIS Alain",
-      "NomArtiste": "CAZALIS",
-      "PrenomArtiste": "Alain"
-    },
-    {
-      "NomCompletArtiste": "CHANG Pia",
-      "NomArtiste": "CHANG",
-      "PrenomArtiste": "Pia"
-    },
-    {
-      "NomCompletArtiste": "CHARRAS Anaïs",
-      "NomArtiste": "CHARRAS",
-      "PrenomArtiste": "Anaïs"
-    },
-    {
-      "NomCompletArtiste": "CHOI Eun",
-      "NomArtiste": "CHOI",
-      "PrenomArtiste": "Eun"
-    },
-    {
-      "NomCompletArtiste": "CIFUENTES Nicolas",
-      "NomArtiste": "CIFUENTES",
-      "PrenomArtiste": "Nicolas"
-    },
-    {
-      "NomCompletArtiste": "DE BAECQUE Martine",
-      "NomArtiste": "DE BAECQUE",
-      "PrenomArtiste": "Martine"
-    },
-    {
-      "NomCompletArtiste": "DELAHAUT Sabine",
-      "NomArtiste": "DELAHAUT",
-      "PrenomArtiste": "Sabine"
-    },
-    {
-      "NomCompletArtiste": "DELERUE DELLOYE Catherine",
-      "NomArtiste": "DELERUE DELLOYE",
-      "PrenomArtiste": "Catherine"
-    },
-    {
-      "NomCompletArtiste": "DOMONT Sophie",
-      "NomArtiste": "DOMONT",
-      "PrenomArtiste": "Sophie"
-    },
-    {
-      "NomCompletArtiste": "DONAIS René",
-      "NomArtiste": "DONAIS",
-      "PrenomArtiste": "René"
-    },
-    {
-      "NomCompletArtiste": "DOUILLARD Nathalie",
-      "NomArtiste": "DOUILLARD",
-      "PrenomArtiste": "Nathalie"
-    },
-    {
-      "NomCompletArtiste": "DUBART Agnès",
-      "NomArtiste": "DUBART",
-      "PrenomArtiste": "Agnès"
-    },
-    {
-      "NomCompletArtiste": "EYDIS Valentina",
-      "NomArtiste": "EYDIS",
-      "PrenomArtiste": "Valentina"
-    },
-    {
-      "NomCompletArtiste": "FERRARA Diana",
-      "NomArtiste": "FERRARA",
-      "PrenomArtiste": "Diana"
-    },
-    {
-      "NomCompletArtiste": "FLAISZMAN Pablo",
-      "NomArtiste": "FLAISZMAN",
-      "PrenomArtiste": "Pablo"
-    },
-    {
-      "NomCompletArtiste": "FOMPERYRINE Baptiste",
-      "NomArtiste": "FOMPERYRINE",
-      "PrenomArtiste": "Baptiste"
-    },
-    {
-      "NomCompletArtiste": "FOURNIER Jules",
-      "NomArtiste": "FOURNIER",
-      "PrenomArtiste": "Jules"
-    },
-    {
-      "NomCompletArtiste": "GARCIA Fernando",
-      "NomArtiste": "GARCIA",
-      "PrenomArtiste": "Fernando"
-    },
-    {
-      "NomCompletArtiste": "GAUTHIER-CHARTRETTE Agnès",
-      "NomArtiste": "GAUTHIER-CHARTRETTE",
-      "PrenomArtiste": "Agnès"
-    },
-    {
-      "NomCompletArtiste": "GENDRE-BERGERE Christine",
-      "NomArtiste": "GENDRE-BERGERE",
-      "PrenomArtiste": "Christine"
-    },
-    {
-      "NomCompletArtiste": "GOMEZ Mila",
-      "NomArtiste": "GOMEZ",
-      "PrenomArtiste": "Mila"
-    },
-    {
-      "NomCompletArtiste": "GORESKI Vlado",
-      "NomArtiste": "GORESKI",
-      "PrenomArtiste": "Vlado"
-    },
-    {
-      "NomCompletArtiste": "GORINI Giovanni",
-      "NomArtiste": "GORINI",
-      "PrenomArtiste": "Giovanni"
-    },
-    {
-      "NomCompletArtiste": "GUÉGUEN Marie Laure",
-      "NomArtiste": "GUÉGUEN",
-      "PrenomArtiste": "Marie Laure"
-    },
-    {
-      "NomCompletArtiste": "GUEZET Yves",
-      "NomArtiste": "GUEZET",
-      "PrenomArtiste": "Yves"
-    },
-    {
-      "NomCompletArtiste": "HALBIRK Halfdan",
-      "NomArtiste": "HALBIRK",
-      "PrenomArtiste": "Halfdan"
-    },
-    {
-      "NomCompletArtiste": "HERRERA NOLORVE Carmen",
-      "NomArtiste": "HERRERA NOLORVE",
-      "PrenomArtiste": "Carmen"
-    },
-    {
-      "NomCompletArtiste": "HIRANO Takako",
-      "NomArtiste": "HIRANO",
-      "PrenomArtiste": "Takako"
-    },
-    {
-      "NomCompletArtiste": "HITTY Nayla",
-      "NomArtiste": "HITTY",
-      "PrenomArtiste": "Nayla"
-    },
-    {
-      "NomCompletArtiste": "JOSEPH Florence",
-      "NomArtiste": "JOSEPH",
-      "PrenomArtiste": "Florence"
-    },
-    {
-      "NomCompletArtiste": "KACA Dariusz",
-      "NomArtiste": "KACA",
-      "PrenomArtiste": "Dariusz"
-    },
-    {
-      "NomCompletArtiste": "KATAGIRI Hiroe",
-      "NomArtiste": "KATAGIRI",
-      "PrenomArtiste": "Hiroe"
-    },
-    {
-      "NomCompletArtiste": "KERNALÉGUEN Brigitte",
-      "NomArtiste": "KERNALÉGUEN",
-      "PrenomArtiste": "Brigitte"
-    },
-    {
-      "NomCompletArtiste": "KIM JeongEun",
-      "NomArtiste": "KIM",
-      "PrenomArtiste": "JeongEun"
-    },
-    {
-      "NomCompletArtiste": "KIRIMURA Akané",
-      "NomArtiste": "KIRIMURA",
-      "PrenomArtiste": "Akané"
-    },
-    {
-      "NomCompletArtiste": "KOSIEK Wiktoria",
-      "NomArtiste": "KOSIEK",
-      "PrenomArtiste": "Wiktoria"
-    },
-    {
-      "NomCompletArtiste": "KROLIKOWSKI Henryk",
-      "NomArtiste": "KROLIKOWSKI",
-      "PrenomArtiste": "Henryk"
-    },
-    {
-      "NomCompletArtiste": "KWON Christian",
-      "NomArtiste": "KWON",
-      "PrenomArtiste": "Christian"
-    },
-    {
-      "NomCompletArtiste": "LE BALP Jean-Luc",
-      "NomArtiste": "LE BALP",
-      "PrenomArtiste": "Jean-Luc"
-    },
-    {
-      "NomCompletArtiste": "LOISEAU Valérie",
-      "NomArtiste": "LOISEAU",
-      "PrenomArtiste": "Valérie"
-    },
-    {
-      "NomCompletArtiste": "LONGO Veronica",
-      "NomArtiste": "LONGO",
-      "PrenomArtiste": "Veronica"
-    },
-    {
-      "NomCompletArtiste": "MARDINI Philippe",
-      "NomArtiste": "MARDINI",
-      "PrenomArtiste": "Philippe"
-    },
-    {
-      "NomCompletArtiste": "MARÈS Marie-Clémentine",
-      "NomArtiste": "MARÈS",
-      "PrenomArtiste": "Marie-Clémentine"
-    },
-    {
-      "NomCompletArtiste": "MARIOTTE Corinne",
-      "NomArtiste": "MARIOTTE",
-      "PrenomArtiste": "Corinne"
-    },
-    {
-      "NomCompletArtiste": "MARZIN Serge",
-      "NomArtiste": "MARZIN",
-      "PrenomArtiste": "Serge"
-    },
-    {
-      "NomCompletArtiste": "MASCARUCCI Michela",
-      "NomArtiste": "MASCARUCCI",
-      "PrenomArtiste": "Michela"
-    },
-    {
-      "NomCompletArtiste": "MASSIP Charlotte",
-      "NomArtiste": "MASSIP",
-      "PrenomArtiste": "Charlotte"
-    },
-    {
-      "NomCompletArtiste": "MESSIKA Emmanuelle",
-      "NomArtiste": "MESSIKA",
-      "PrenomArtiste": "Emmanuelle"
-    },
-    {
-      "NomCompletArtiste": "MILTHON",
-      "NomArtiste": "MILTHON",
-      "PrenomArtiste": ""
-    },
-    {
-      "NomCompletArtiste": "MORIZEAU Gregory",
-      "NomArtiste": "MORIZEAU",
-      "PrenomArtiste": "Gregory"
-    },
-    {
-      "NomCompletArtiste": "MUÑOZ Liz del Pilar",
-      "NomArtiste": "MUÑOZ",
-      "PrenomArtiste": "Liz del Pilar"
-    },
-    {
-      "NomCompletArtiste": "NEYROD Dominique",
-      "NomArtiste": "NEYROD",
-      "PrenomArtiste": "Dominique"
-    },
-    {
-      "NomCompletArtiste": "NOBLET Yves",
-      "NomArtiste": "NOBLET",
-      "PrenomArtiste": "Yves"
-    },
-    {
-      "NomCompletArtiste": "NOGUCHI Akemi",
-      "NomArtiste": "NOGUCHI",
-      "PrenomArtiste": "Akemi"
-    },
-    {
-      "NomCompletArtiste": "OSBORNE Laura",
-      "NomArtiste": "OSBORNE",
-      "PrenomArtiste": "Laura"
-    },
-    {
-      "NomCompletArtiste": "PALACIO Gloria",
-      "NomArtiste": "PALACIO",
-      "PrenomArtiste": "Gloria"
-    },
-    {
-      "NomCompletArtiste": "PANAUD Isabelle",
-      "NomArtiste": "PANAUD",
-      "PrenomArtiste": "Isabelle"
-    },
-    {
-      "NomCompletArtiste": "PEMA Albert",
-      "NomArtiste": "PEMA",
-      "PrenomArtiste": "Albert"
-    },
-    {
-      "NomCompletArtiste": "PERINO Thomas",
-      "NomArtiste": "PERINO",
-      "PrenomArtiste": "Thomas"
-    },
-    {
-      "NomCompletArtiste": "PERRAMANT Matthieu",
-      "NomArtiste": "PERRAMANT",
-      "PrenomArtiste": "Matthieu"
-    },
-    {
-      "NomCompletArtiste": "POUPÉ Sylvie",
-      "NomArtiste": "POUPÉ",
-      "PrenomArtiste": "Sylvie"
-    },
-    {
-      "NomCompletArtiste": "RENDON ZIPAGAUTA Amalfi",
-      "NomArtiste": "RENDON ZIPAGAUTA",
-      "PrenomArtiste": "Amalfi"
-    },
-    {
-      "NomCompletArtiste": "RICART Maryanick",
-      "NomArtiste": "RICART",
-      "PrenomArtiste": "Maryanick"
-    },
-    {
-      "NomCompletArtiste": "ROCCA Francisco",
-      "NomArtiste": "ROCCA",
-      "PrenomArtiste": "Francisco"
-    },
-    {
-      "NomCompletArtiste": "ROMANO Jeanne",
-      "NomArtiste": "ROMANO",
-      "PrenomArtiste": "Jeanne"
-    },
-    {
-      "NomCompletArtiste": "ROMERO LEROY Myriam",
-      "NomArtiste": "ROMERO LEROY",
-      "PrenomArtiste": "Myriam"
-    },
-    {
-      "NomCompletArtiste": "SALGUES Sabine",
-      "NomArtiste": "SALGUES",
-      "PrenomArtiste": "Sabine"
-    },
-    {
-      "NomCompletArtiste": "SHU-E",
-      "NomArtiste": "SHU-E",
-      "PrenomArtiste": ""
-    },
-    {
-      "NomCompletArtiste": "SIMONIDHI Marilda",
-      "NomArtiste": "SIMONIDHI",
-      "PrenomArtiste": "Marilda"
-    },
-    {
-      "NomCompletArtiste": "SVETIEVA Marija",
-      "NomArtiste": "SVETIEVA",
-      "PrenomArtiste": "Marija"
-    },
-    {
-      "NomCompletArtiste": "SZPLIT Magda",
-      "NomArtiste": "SZPLIT",
-      "PrenomArtiste": "Magda"
-    },
-    {
-      "NomCompletArtiste": "TUR Zoé",
-      "NomArtiste": "TUR",
-      "PrenomArtiste": "Zoé"
-    },
-    {
-      "NomCompletArtiste": "URIBE Gloria",
-      "NomArtiste": "URIBE",
-      "PrenomArtiste": "Gloria"
-    },
-    {
-      "NomCompletArtiste": "UYTETERSPROT Jean-Michel",
-      "NomArtiste": "UYTETERSPROT",
-      "PrenomArtiste": "Jean-Michel"
-    },
-    {
-      "NomCompletArtiste": "VALLET Mélanie",
-      "NomArtiste": "VALLET",
-      "PrenomArtiste": "Mélanie"
-    },
-    {
-      "NomCompletArtiste": "VAN DE ROER Michèle",
-      "NomArtiste": "VAN DE ROER",
-      "PrenomArtiste": "Michèle"
-    },
-    {
-      "NomCompletArtiste": "VANDRISSE Christine",
-      "NomArtiste": "VANDRISSE",
-      "PrenomArtiste": "Christine"
-    },
-    {
-      "NomCompletArtiste": "VASSEUR Florence",
-      "NomArtiste": "VASSEUR",
-      "PrenomArtiste": "Florence"
-    },
-    {
-      "NomCompletArtiste": "VASSEUR Monique",
-      "NomArtiste": "VASSEUR",
-      "PrenomArtiste": "Monique"
-    },
-    {
-      "NomCompletArtiste": "VESOVIC Yarmila",
-      "NomArtiste": "VESOVIC",
-      "PrenomArtiste": "Yarmila"
-    },
-    {
-      "NomCompletArtiste": "WINTZENRIETH Catherine",
-      "NomArtiste": "WINTZENRIETH",
-      "PrenomArtiste": "Catherine"
-    },
-    {
-      "NomCompletArtiste": "ZEVALLOS Juliana",
-      "NomArtiste": "ZEVALLOS",
-      "PrenomArtiste": "Juliana"
-    }
-  ]
+  {
+    "NomCompletArtiste": "ALEXIEFF Yvonne",
+    "NomArtiste": "ALEXIEFF",
+    "PrenomArtiste": "Yvonne",
+    "Description": "Née à Sofia, où je vis jusqu’à l'âge dix ans, puis l’Italie, la France, l’Angleterre.\nAujourd’hui, je vis et travaille à Paris.\nEtudes d’art et de gravure à l’Ecole Nationale Supérieure des Arts Décoratifs de Paris où Jacques Frélaut fut mon maître.\nDes résidences aux Royal College of Art à Londres et à la Cité Internationale des Arts à Paris.\n\nExpositions personnelles en France et à l’étranger et participe aux principales Biennales et Triennales de gravure. Depuis 1990, je me suis engagée activement dans l’enseignement des techniques de la gravure en taille-douce pour Paris-Ateliers (atelier Paris 13e).\n\nLauréate de plusieurs prix dont un prix de gravure à la Biennale de St Maur en 2002 et plus récemment, en 2015, le prix des Ateliers Moret. Le prix TAYLOR de dessin 2017 et plusieurs autres prix de gravure décernés lors du salon des Artistes Orléanais et Garches.\n\nMon travail oscille entre l’observation de la réalité et la peinture du rêve.\nLa manière noire est une technique qui me permet de dilater la sensation, d’entrer en conversation intime avec le visible, de ralentir pour mieux goûter et de me perdre dans les textures et les formes. Je découdre ce qui apparaît, comme l’archéologue découvre petit à petit l’objet enfoui et le révèle à la lumière du jour."
+  },
+  {
+    "NomCompletArtiste": "ALIADIERE Dominique",
+    "NomArtiste": "ALIADIERE",
+    "PrenomArtiste": "Dominique",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ANDRIEU Caroline",
+    "NomArtiste": "ANDRIEU",
+    "PrenomArtiste": "Caroline",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ATMAN Michèle",
+    "NomArtiste": "ATMAN",
+    "PrenomArtiste": "Michèle",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ATRY Evelyne",
+    "NomArtiste": "ATRY",
+    "PrenomArtiste": "Evelyne",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BARBOSA Consuelo",
+    "NomArtiste": "BARBOSA",
+    "PrenomArtiste": "Consuelo",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BARON CIFUENTES Juan Camilo",
+    "NomArtiste": "BARON CIFUENTES",
+    "PrenomArtiste": "Juan Camilo",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BAZILLE Fanny",
+    "NomArtiste": "BAZILLE",
+    "PrenomArtiste": "Fanny",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BERTON Quentin",
+    "NomArtiste": "BERTON",
+    "PrenomArtiste": "Quentin",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BEYTOEÏ Abolfazi",
+    "NomArtiste": "BEYTOEÏ",
+    "PrenomArtiste": "Abolfazi",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BLONDEL Françoise",
+    "NomArtiste": "BLONDEL",
+    "PrenomArtiste": "Françoise",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BOUTON Bernard",
+    "NomArtiste": "BOUTON",
+    "PrenomArtiste": "Bernard",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BOUYER Caroline",
+    "NomArtiste": "BOUYER",
+    "PrenomArtiste": "Caroline",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "BRAUD Pascale",
+    "NomArtiste": "BRAUD",
+    "PrenomArtiste": "Pascale",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CAILLETEAU Michel",
+    "NomArtiste": "CAILLETEAU",
+    "PrenomArtiste": "Michel",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CANCHARI Mariela",
+    "NomArtiste": "CANCHARI",
+    "PrenomArtiste": "Mariela",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CARRERA Malena",
+    "NomArtiste": "CARRERA",
+    "PrenomArtiste": "Malena",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CAZALIS Alain",
+    "NomArtiste": "CAZALIS",
+    "PrenomArtiste": "Alain",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CHANG Pia",
+    "NomArtiste": "CHANG",
+    "PrenomArtiste": "Pia",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CHARRAS Anaïs",
+    "NomArtiste": "CHARRAS",
+    "PrenomArtiste": "Anaïs",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CHOI Eun",
+    "NomArtiste": "CHOI",
+    "PrenomArtiste": "Eun",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "CIFUENTES Nicolas",
+    "NomArtiste": "CIFUENTES",
+    "PrenomArtiste": "Nicolas",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DE BAECQUE Martine",
+    "NomArtiste": "DE BAECQUE",
+    "PrenomArtiste": "Martine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DELAHAUT Sabine",
+    "NomArtiste": "DELAHAUT",
+    "PrenomArtiste": "Sabine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DELERUE DELLOYE Catherine",
+    "NomArtiste": "DELERUE DELLOYE",
+    "PrenomArtiste": "Catherine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DOMONT Sophie",
+    "NomArtiste": "DOMONT",
+    "PrenomArtiste": "Sophie",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DONAIS René",
+    "NomArtiste": "DONAIS",
+    "PrenomArtiste": "René",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DOUILLARD Nathalie",
+    "NomArtiste": "DOUILLARD",
+    "PrenomArtiste": "Nathalie",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "DUBART Agnès",
+    "NomArtiste": "DUBART",
+    "PrenomArtiste": "Agnès",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "EYDIS Valentina",
+    "NomArtiste": "EYDIS",
+    "PrenomArtiste": "Valentina",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "FERRARA Diana",
+    "NomArtiste": "FERRARA",
+    "PrenomArtiste": "Diana",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "FLAISZMAN Pablo",
+    "NomArtiste": "FLAISZMAN",
+    "PrenomArtiste": "Pablo",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "FOMPERYRINE Baptiste",
+    "NomArtiste": "FOMPERYRINE",
+    "PrenomArtiste": "Baptiste",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "FOURNIER Jules",
+    "NomArtiste": "FOURNIER",
+    "PrenomArtiste": "Jules",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GARCIA Fernando",
+    "NomArtiste": "GARCIA",
+    "PrenomArtiste": "Fernando",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GAUTHIER-CHARTRETTE Agnès",
+    "NomArtiste": "GAUTHIER-CHARTRETTE",
+    "PrenomArtiste": "Agnès",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GENDRE-BERGERE Christine",
+    "NomArtiste": "GENDRE-BERGERE",
+    "PrenomArtiste": "Christine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GOMEZ Mila",
+    "NomArtiste": "GOMEZ",
+    "PrenomArtiste": "Mila",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GORESKI Vlado",
+    "NomArtiste": "GORESKI",
+    "PrenomArtiste": "Vlado",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GORINI Giovanni",
+    "NomArtiste": "GORINI",
+    "PrenomArtiste": "Giovanni",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GUÉGUEN Marie Laure",
+    "NomArtiste": "GUÉGUEN",
+    "PrenomArtiste": "Marie Laure",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "GUEZET Yves",
+    "NomArtiste": "GUEZET",
+    "PrenomArtiste": "Yves",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "HALBIRK Halfdan",
+    "NomArtiste": "HALBIRK",
+    "PrenomArtiste": "Halfdan",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "HERRERA NOLORVE Carmen",
+    "NomArtiste": "HERRERA NOLORVE",
+    "PrenomArtiste": "Carmen",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "HIRANO Takako",
+    "NomArtiste": "HIRANO",
+    "PrenomArtiste": "Takako",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "HITTY Nayla",
+    "NomArtiste": "HITTY",
+    "PrenomArtiste": "Nayla",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "JOSEPH Florence",
+    "NomArtiste": "JOSEPH",
+    "PrenomArtiste": "Florence",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KACA Dariusz",
+    "NomArtiste": "KACA",
+    "PrenomArtiste": "Dariusz",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KATAGIRI Hiroe",
+    "NomArtiste": "KATAGIRI",
+    "PrenomArtiste": "Hiroe",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KERNALÉGUEN Brigitte",
+    "NomArtiste": "KERNALÉGUEN",
+    "PrenomArtiste": "Brigitte",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KIM JeongEun",
+    "NomArtiste": "KIM",
+    "PrenomArtiste": "JeongEun",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KIRIMURA Akané",
+    "NomArtiste": "KIRIMURA",
+    "PrenomArtiste": "Akané",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KOSIEK Wiktoria",
+    "NomArtiste": "KOSIEK",
+    "PrenomArtiste": "Wiktoria",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KROLIKOWSKI Henryk",
+    "NomArtiste": "KROLIKOWSKI",
+    "PrenomArtiste": "Henryk",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "KWON Christian",
+    "NomArtiste": "KWON",
+    "PrenomArtiste": "Christian",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "LE BALP Jean-Luc",
+    "NomArtiste": "LE BALP",
+    "PrenomArtiste": "Jean-Luc",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "LOISEAU Valérie",
+    "NomArtiste": "LOISEAU",
+    "PrenomArtiste": "Valérie",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "LONGO Veronica",
+    "NomArtiste": "LONGO",
+    "PrenomArtiste": "Veronica",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MARDINI Philippe",
+    "NomArtiste": "MARDINI",
+    "PrenomArtiste": "Philippe",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MARÈS Marie-Clémentine",
+    "NomArtiste": "MARÈS",
+    "PrenomArtiste": "Marie-Clémentine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MARIOTTE Corinne",
+    "NomArtiste": "MARIOTTE",
+    "PrenomArtiste": "Corinne",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MARZIN Serge",
+    "NomArtiste": "MARZIN",
+    "PrenomArtiste": "Serge",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MASCARUCCI Michela",
+    "NomArtiste": "MASCARUCCI",
+    "PrenomArtiste": "Michela",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MASSIP Charlotte",
+    "NomArtiste": "MASSIP",
+    "PrenomArtiste": "Charlotte",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MESSIKA Emmanuelle",
+    "NomArtiste": "MESSIKA",
+    "PrenomArtiste": "Emmanuelle",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MILTHON",
+    "NomArtiste": "MILTHON",
+    "PrenomArtiste": "",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MORIZEAU Gregory",
+    "NomArtiste": "MORIZEAU",
+    "PrenomArtiste": "Gregory",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "MUÑOZ Liz del Pilar",
+    "NomArtiste": "MUÑOZ",
+    "PrenomArtiste": "Liz del Pilar",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "NEYROD Dominique",
+    "NomArtiste": "NEYROD",
+    "PrenomArtiste": "Dominique",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "NOBLET Yves",
+    "NomArtiste": "NOBLET",
+    "PrenomArtiste": "Yves",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "NOGUCHI Akemi",
+    "NomArtiste": "NOGUCHI",
+    "PrenomArtiste": "Akemi",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "OSBORNE Laura",
+    "NomArtiste": "OSBORNE",
+    "PrenomArtiste": "Laura",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "PALACIO Gloria",
+    "NomArtiste": "PALACIO",
+    "PrenomArtiste": "Gloria",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "PANAUD Isabelle",
+    "NomArtiste": "PANAUD",
+    "PrenomArtiste": "Isabelle",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "PEMA Albert",
+    "NomArtiste": "PEMA",
+    "PrenomArtiste": "Albert",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "PERINO Thomas",
+    "NomArtiste": "PERINO",
+    "PrenomArtiste": "Thomas",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "PERRAMANT Matthieu",
+    "NomArtiste": "PERRAMANT",
+    "PrenomArtiste": "Matthieu",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "POUPÉ Sylvie",
+    "NomArtiste": "POUPÉ",
+    "PrenomArtiste": "Sylvie",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "RENDON ZIPAGAUTA Amalfi",
+    "NomArtiste": "RENDON ZIPAGAUTA",
+    "PrenomArtiste": "Amalfi",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "RICART Maryanick",
+    "NomArtiste": "RICART",
+    "PrenomArtiste": "Maryanick",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ROCCA Francisco",
+    "NomArtiste": "ROCCA",
+    "PrenomArtiste": "Francisco",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ROMANO Jeanne",
+    "NomArtiste": "ROMANO",
+    "PrenomArtiste": "Jeanne",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ROMERO LEROY Myriam",
+    "NomArtiste": "ROMERO LEROY",
+    "PrenomArtiste": "Myriam",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "SALGUES Sabine",
+    "NomArtiste": "SALGUES",
+    "PrenomArtiste": "Sabine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "SHU-E",
+    "NomArtiste": "SHU-E",
+    "PrenomArtiste": "",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "SIMONIDHI Marilda",
+    "NomArtiste": "SIMONIDHI",
+    "PrenomArtiste": "Marilda",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "SVETIEVA Marija",
+    "NomArtiste": "SVETIEVA",
+    "PrenomArtiste": "Marija",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "SZPLIT Magda",
+    "NomArtiste": "SZPLIT",
+    "PrenomArtiste": "Magda",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "TUR Zoé",
+    "NomArtiste": "TUR",
+    "PrenomArtiste": "Zoé",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "URIBE Gloria",
+    "NomArtiste": "URIBE",
+    "PrenomArtiste": "Gloria",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "UYTETERSPROT Jean-Michel",
+    "NomArtiste": "UYTETERSPROT",
+    "PrenomArtiste": "Jean-Michel",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "VALLET Mélanie",
+    "NomArtiste": "VALLET",
+    "PrenomArtiste": "Mélanie",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "VAN DE ROER Michèle",
+    "NomArtiste": "VAN DE ROER",
+    "PrenomArtiste": "Michèle",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "VANDRISSE Christine",
+    "NomArtiste": "VANDRISSE",
+    "PrenomArtiste": "Christine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "VASSEUR Florence",
+    "NomArtiste": "VASSEUR",
+    "PrenomArtiste": "Florence",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "VASSEUR Monique",
+    "NomArtiste": "VASSEUR",
+    "PrenomArtiste": "Monique",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "VESOVIC Yarmila",
+    "NomArtiste": "VESOVIC",
+    "PrenomArtiste": "Yarmila",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "WINTZENRIETH Catherine",
+    "NomArtiste": "WINTZENRIETH",
+    "PrenomArtiste": "Catherine",
+    "Description": ""
+  },
+  {
+    "NomCompletArtiste": "ZEVALLOS Juliana",
+    "NomArtiste": "ZEVALLOS",
+    "PrenomArtiste": "Juliana",
+    "Description": ""
+  }
+]
