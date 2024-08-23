@@ -7,27 +7,32 @@ h1{
 	border: 15px solid green;
 	
 	}
-main{
-display:flex;
-flex-direction: column;
-
-}
-
-.photocontainer {
-	background-color: lightgrey;
-	width: 200px;
-	border: 15px solid green;
-	padding: 50px;
-	margin: 20px;
+body{
 	
 }
-
-.photocontainer  img {
-	display: block;	
-	margin-left: 5px;
-	width: 50px;
-	height: 50px;;
-	object-fit:contain;
-	border-radius: 50px;	
-
+.main{
+	display:flex;
+	flex-direction: row;
+	border: 15px solid blue;
 }
+#listeartistes{
+	border: 15px solid pink;
+	display:inline-table;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /
+}
+#artiste{
+	border: 15px solid pink;
+	display:inline-table;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /
+}
+#photocontainer{
+	border: 15px solid red;
+	background-color: lightgrey;
+	width: 200px;
+	padding: 50px;
+	margin: 20px;
+	display: inline-flex;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adapte le nombre de colonnes en fonction de la largeur de l'écran */
+  }
+	
+

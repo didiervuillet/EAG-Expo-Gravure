@@ -17,11 +17,13 @@ document.getElementById("container").appendChild(BoutonVisite);
 function ListerArtistes(Artiste)
 {
   console.log(Artiste);
-  const artistesContainer = document.querySelector("ListeArtistes");
+  const artistesContainer = document.getElementById("listeartistes");
         Artiste.forEach(artiste => {
+          const membreElement = document.createElement("artiste");
           const nomArtiste = document.createElement("h4");
           nomArtiste.innerText = artiste.PrenomArtiste+" "+artiste.NomArtiste;
-          artistesContainer.appendChild(nomArtiste);
+          membreElement.appendChild(nomArtiste);
+          artistesContainer.appendChild(membreElement);
         
         });
 }
@@ -46,6 +48,8 @@ async function fetchPhotos(userId) {
         return {
           id: photo.id,
           title: photo.title,
+          nomcompletartiste:photo.title.split("_")[0],
+          titre : photo.title.split("_")[1],
           url: `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_m.jpg`, 
           owner: userId 
         };
@@ -68,13 +72,19 @@ fetchPhotos(userId)
 
     // Example: Display photos in HTML
     // Récupération de l'élément du DOM qui accueillera les photos
-  const photoContainer = document.querySelector("photocontainer");
+  const photoContainer = document.getElementById("photocontainer");
   
     photos.forEach(photo => {
       const photoElement = document.createElement("img");
       photoElement.src = photo.url;
       photoElement.alt = photo.title;
       photoContainer.appendChild(photoElement);
+      const nomelement = document.createElement("h4");
+      nomelement.innerText = photo.title.split("_")[0];
+      photoContainer.appendChild(nomelement);
+      const titreelement = document.createElement("h4");
+      titreelement.innerText = photo.title.split("_")[1];
+      photoContainer.appendChild(titreelement);
     });
 
   })
@@ -82,3 +92,4 @@ fetchPhotos(userId)
     console.error(error);
   });
 }
+

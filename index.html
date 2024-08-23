@@ -15,11 +15,12 @@
     <H2>Espace Maisonblanche à Chatillon</H2>
         <H3>Metro Chatillon-Montrouge</H3>
 
-</header>
-  <main>
-    <div id="container"></div>
-       <listeArtistes></listeArtistes>
-        <photocontainer></photocontainer>
+  </header>
+  <main class="main"></main>
+    <section id="container"></section>
+    <section id="listeartistes"></section>
+    <section id="photocontainer"></section>
+   
       
 
    </main>
@@ -28,73 +29,3 @@
   
 </body>
 </html>
-
-<!-- <script>
-  // Déclaration des variables
-  const apiKey = "b000733577cbe9e78d6a4112a411960c"; // Replace with your actual API key
-  const userId = "201112550@N08"; // Replace with the Flickr user ID (find this on their profile page)
-  const apiEndpoint = "https://api.flickr.com/services/rest/";
-   
-  // Fonction pour récupérer les artistes
-  const reponse2 = await fetch("Artistes/ListeArtistes.json");
-  const Artiste = await reponse2.json();
-
-  // Fonction pour récupérer les photos
-  async function fetchPhotos(userId) {
-    const url = `${apiEndpoint}?method=flickr.people.getPhotos&api_key=${apiKey}&user_id=${userId}&format=json&nojsoncallback=1`; 
-
-    try {
-      const response = await fetch(url);
-      const data = await response.json();
-      
-      if (data.photos.photo.length > 0) {
-        return data.photos.photo.map((photo) => {
-          return {
-            id: photo.id,
-            title: photo.title,
-            url: `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_m.jpg`, 
-            owner: userId 
-          };
-        });
-      } else {
-        console.error("No photos found for this user.");
-        return []; // Return an empty array if no photos are found
-      }
-    } catch (error) {
-      console.error("Error fetching photos:", error);
-      return []; // Return an empty array in case of an error
-    }
-  }
-
-  // Fonction pour afficher les artistes (si nécessaire)
-  function Artistes() {
-    // Implémentez le code pour afficher les artistes ici
-    console.log("Artistes"); // Ajout d'une ligne de console pour vérifier
-   // Affichage des photos dans le DOM
-   const artistesContainer = document.querySelector("ListeArtistes");
-        photos.forEach(artiste => {
-          const nomArtiste = document.createElement("h4");
-          nomArtiste.innerText = Artiste.NomArtiste
-         
-          artisteContainer.appendChild(nomArtiste);
-        });
-  }
-
-  // Fonction pour afficher les photos de l'exposition
-  function Visite() {
-    fetchPhotos(userId)
-      .then(photos => {
-        // Affichage des photos dans le DOM
-        const photoContainer = document.querySelector("photocontainer");
-        photos.forEach(photo => {
-          const photoElement = document.createElement("img");
-          photoElement.src = photo.url;
-          photoElement.alt = photo.title;
-          photoContainer.appendChild(photoElement);
-        });
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }
-</script> -->
