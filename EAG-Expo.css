@@ -4,35 +4,49 @@ h1{
 .header{
 	display:flex;
 	flex-direction: column;
-	border: 15px solid green;
+
 	
 	}
-body{
-	
-}
 .main{
 	display:flex;
 	flex-direction: row;
-	border: 15px solid blue;
+	
 }
 #listeartistes{
-	border: 15px solid pink;
-	display:inline-table;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /
+	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2px;
 }
-#artiste{
-	border: 15px solid pink;
-	display:inline-table;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /
+.artiste{
+	border: 5px solid black;
+	flex: 1;
+	margin: 4px;
+	text-align: center;
+	
+	
 }
 #photocontainer{
-	border: 15px solid red;
-	background-color: lightgrey;
-	width: 200px;
-	padding: 50px;
-	margin: 20px;
-	display: inline-flex;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adapte le nombre de colonnes en fonction de la largeur de l'écran */
+	
+	
+	
+	flex: 1;
+	margin: 4px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2px;
+	
   }
+  .mediaImg{
+	border: 5px solid black;
+	height: 200px;
+	text-align: center;
+  }
+  .zoom{
+	border: 5px solid red;
+	width: 500;
+	height: 500;
+  }
+  
 	
 

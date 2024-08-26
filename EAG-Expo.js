@@ -1,7 +1,5 @@
 const reponse2 = await fetch("Artistes/ListeArtistes.json");
 const Artiste = await reponse2.json();
-
-
 const BoutonArtistes=document.createElement("button");
 BoutonArtistes.addEventListener("click", function(){ListerArtistes(Artiste)});
 BoutonArtistes.innerText="Artistes";
@@ -16,10 +14,15 @@ document.getElementById("container").appendChild(BoutonVisite);
 
 function ListerArtistes(Artiste)
 {
+  // Efface l'écran avant d'afficher la liste
+  const photoContainer = document.getElementById("photocontainer"); 
+  photoContainer.innerHTML = ''; // Efface le contenu du conteneur
+
   console.log(Artiste);
   const artistesContainer = document.getElementById("listeartistes");
         Artiste.forEach(artiste => {
           const membreElement = document.createElement("artiste");
+          membreElement.setAttribute('class','artiste');
           const nomArtiste = document.createElement("h4");
           nomArtiste.innerText = artiste.PrenomArtiste+" "+artiste.NomArtiste;
           membreElement.appendChild(nomArtiste);
@@ -27,9 +30,18 @@ function ListerArtistes(Artiste)
         
         });
 }
+function GetArtisteByName(Name,Artiste){
+
+ //return { Artiste.find((NomArtiste)=>NomArtiste=Name)}
+ return
+}
 
 function Visite() 
 {
+  // Efface l'écran avant d'afficher les photos
+  const artistesContainer = document.getElementById("listeartistes"); 
+  artistesContainer.innerHTML = ''; // Efface le contenu du conteneur
+
 const apiKey = "b000733577cbe9e78d6a4112a411960c"; // Replace with your actual API key
 const userId = "201112550@N08"; // Replace with the Flickr user ID (find this on their profile page)
 
@@ -37,21 +49,27 @@ const apiEndpoint = "https://api.flickr.com/services/rest/";
 
 // Function to fetch photos
 async function fetchPhotos(userId) {
-  const url = `${apiEndpoint}?method=flickr.people.getPhotos&api_key=${apiKey}&user_id=${userId}&format=json&nojsoncallback=1`; 
+
+  const url =`${apiEndpoint}?method=flickr.people.getPublicPhotos&api_key=${apiKey}&user_id=${userId}&extras=url_o,url_c,url_h&format=json&nojsoncallback=1`; // Inclure le paramètre extra=url_o
 
   try {
     const response = await fetch(url);
     const data = await response.json();
+    console.log(data);
     
     if (data.photos.photo.length > 0) {
-      return data.photos.photo.map((photo) => {
+      // Sort photos by title before returning
+      return data.photos.photo.sort((a, b) => a.title.localeCompare(b.title)).map((photo) => {
         return {
           id: photo.id,
           title: photo.title,
           nomcompletartiste:photo.title.split("_")[0],
           titre : photo.title.split("_")[1],
-          url: `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_m.jpg`, 
-          owner: userId 
+          url_c: photo.url_c,
+          url_h: photo.url_h, 
+          url_o: photo.url_o,
+          owner: userId ,
+         
         };
       });
     } else {
@@ -75,16 +93,20 @@ fetchPhotos(userId)
   const photoContainer = document.getElementById("photocontainer");
   
     photos.forEach(photo => {
+      const oeuvreElement = document.createElement("oeuvre");
       const photoElement = document.createElement("img");
-      photoElement.src = photo.url;
+      photoElement.src = photo.url_c
       photoElement.alt = photo.title;
-      photoContainer.appendChild(photoElement);
+      photoElement.onclick = () => openWindow(photo); // Correctly pass 'photo'
+      photoElement.setAttribute('class','mediaImg');
       const nomelement = document.createElement("h4");
       nomelement.innerText = photo.title.split("_")[0];
-      photoContainer.appendChild(nomelement);
-      const titreelement = document.createElement("h4");
+      const titreelement = document.createElement("h5");
       titreelement.innerText = photo.title.split("_")[1];
-      photoContainer.appendChild(titreelement);
+      oeuvreElement.appendChild(photoElement);
+      oeuvreElement.appendChild(nomelement);
+      oeuvreElement.appendChild(titreelement);
+      photoContainer.appendChild(oeuvreElement);
     });
 
   })
@@ -92,4 +114,42 @@ fetchPhotos(userId)
     console.error(error);
   });
 }
+// Fonction pour récupérer l'URL de la photo
+async function getPhotoUrl(apiKey,photoId) {
+  const apiUrl = `https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=${apiKey}&photo_id=${photoId}&format=json&nojsoncallback=1`;
+try {
+  const response = await fetch(apiUrl);
+  const data = await response.json();
+
+  // Trouvez la taille d'image originale (format 'o')
+  const originalUrl = data.sizes.size.find(size => size.label === 'Original').source;
+
+  // Affiche l'URL de la photo dans la console
+  console.log('URL de la photo originale :', originalUrl);
+  return originalUrl;
+  // Vous pouvez utiliser l'URL pour afficher l'image dans une balise <img>
+  // const imgElement = document.createElement('img');
+  // imgElement.src = originalUrl;
+  // document.body.appendChild(imgElement);
+} catch (error) {
+  console.error('Erreur lors de la récupération de l URL :', error);
+}
+}
+async function openWindow(photo) {
+  
+
+  // Create the new window
+  const newWindow = window.open("", "zoomphoto", "width=500,height=500");
+
+    // Write the HTML content after the window is loaded
+    newWindow.document.write('<link rel="stylesheet" href="zoomphoto.css">'); 
+    newWindow.document.write(`
+      <img src=${photo.url_o} alt="${photo.title}" class="zoom">
+      <p> ${photo.nomcompletartiste}</p>
+      <p> ${photo.titre}</p>
+    `);
+  };
+
+  
+
 
