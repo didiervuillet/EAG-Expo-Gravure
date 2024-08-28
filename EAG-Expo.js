@@ -175,7 +175,7 @@ async function openWindow(photo) {
       newWindow.document.write('<link rel="stylesheet" href="zoomartiste.css">'); 
       newWindow.document.write(`
         <H4>${artiste.PrenomArtiste+" "+artiste.NomArtiste}</H4>
-        <p> ${artiste.Description}</p>
+        <p>${artiste.Description.replace(/\n/g, '<br>')}</p> 
      
       `);
     };
