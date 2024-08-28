@@ -64,8 +64,8 @@ const apiEndpoint = "https://api.flickr.com/services/rest/";
 
 // Function to fetch photos
 async function fetchPhotos(userId) {
-
-  const url =`${apiEndpoint}?method=flickr.people.getPublicPhotos&api_key=${apiKey}&user_id=${userId}&extras=url_o,url_c,url_h&format=json&nojsoncallback=1`; // Inclure le paramètre extra=url_o
+  const perPage=200;
+  const url =`${apiEndpoint}?method=flickr.people.getPublicPhotos&api_key=${apiKey}&user_id=${userId}&extras=url_o,url_c,url_h&format=json&nojsoncallback=1&per_page=${perPage}`; // Inclure le paramètre extra=url_o
 
   try {
     const response = await fetch(url);
@@ -179,7 +179,3 @@ async function openWindow(photo) {
      
       `);
     };
-  
-  
-
-
