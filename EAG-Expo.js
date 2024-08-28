@@ -23,18 +23,33 @@ function ListerArtistes(Artiste)
         Artiste.forEach(artiste => {
           const membreElement = document.createElement("artiste");
           membreElement.setAttribute('class','artiste');
+          const membreArtiste = document.createElement("a");
+          membreArtiste.onclick = () => openWindowArtiste(artiste);
           const nomArtiste = document.createElement("h4");
           nomArtiste.innerText = artiste.PrenomArtiste+" "+artiste.NomArtiste;
-          membreElement.appendChild(nomArtiste);
+          membreArtiste.appendChild(nomArtiste);
+          membreElement.appendChild(membreArtiste);
           artistesContainer.appendChild(membreElement);
         
         });
 }
 function GetArtisteByName(Name,Artiste){
+  if (!Array.isArray(Artiste)) {
+    throw new Error("Artistes doit être un tableau.");
+  }
 
- //return { Artiste.find((NomArtiste)=>NomArtiste=Name)}
- return
+  // Trouver l'artiste dont le nom correspond
+  const artiste = Artiste.find(artiste => artiste.NomArtiste === Name);
+ console.log(artiste);
+  // Retourner l'artiste trouvé, ou null s'il n'est pas trouvé
+  return artiste;
 }
+
+ 
+function afficheArtiste(nomcompletartiste)
+{console.log(nomcompletartiste);
+
+};
 
 function Visite() 
 {
@@ -95,7 +110,8 @@ fetchPhotos(userId)
     photos.forEach(photo => {
       const oeuvreElement = document.createElement("oeuvre");
       const photoElement = document.createElement("img");
-      photoElement.src = photo.url_c
+      // Utilisez l'opérateur ternaire pour choisir l'URL
+      photoElement.src = photo.url_c ? photo.url_c : photo.url_o;  // Affiche url_o si url_c est undefined
       photoElement.alt = photo.title;
       photoElement.onclick = () => openWindow(photo); // Correctly pass 'photo'
       photoElement.setAttribute('class','mediaImg');
@@ -103,9 +119,9 @@ fetchPhotos(userId)
       nomelement.innerText = photo.title.split("_")[0];
       const titreelement = document.createElement("h5");
       titreelement.innerText = photo.title.split("_")[1];
-      oeuvreElement.appendChild(photoElement);
       oeuvreElement.appendChild(nomelement);
       oeuvreElement.appendChild(titreelement);
+      oeuvreElement.appendChild(photoElement);
       photoContainer.appendChild(oeuvreElement);
     });
 
@@ -149,7 +165,21 @@ async function openWindow(photo) {
       <p> ${photo.titre}</p>
     `);
   };
+  async function openWindowArtiste(artiste) {
+  
 
+    // Create the new window
+    const newWindow = window.open("", "zoomphoto", "width=500,height=500");
+  
+      // Write the HTML content after the window is loaded
+      newWindow.document.write('<link rel="stylesheet" href="zoomartiste.css">'); 
+      newWindow.document.write(`
+        <H4>${artiste.PrenomArtiste+" "+artiste.NomArtiste}</H4>
+        <p> ${artiste.Description}</p>
+     
+      `);
+    };
+  
   
 
 

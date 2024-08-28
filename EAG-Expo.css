@@ -3,10 +3,17 @@ h1{
 }
 .header{
 	display:flex;
-	flex-direction: column;
-
-	
+	flex-direction: column;	
 	}
+
+#container{
+button{
+		height: 50px;
+		width: 60px;;
+		border-color: chartreuse;
+		margin: 10px;
+	}
+}
 .main{
 	display:flex;
 	flex-direction: row;
