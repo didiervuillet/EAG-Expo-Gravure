@@ -6,7 +6,7 @@ BoutonArtistes.innerText="Artistes";
 document.getElementById("container").appendChild(BoutonArtistes);
 
 const BoutonVisite=document.createElement("button");
-BoutonVisite.addEventListener("click", function(){Visite()});
+BoutonVisite.addEventListener("click", function(){Visite(Artiste)});
 BoutonVisite.innerText="Visite";
 document.getElementById("container").appendChild(BoutonVisite);
 
@@ -39,7 +39,7 @@ function GetArtisteByName(Name,Artiste){
   }
 
   // Trouver l'artiste dont le nom correspond
-  const artiste = Artiste.find(artiste => artiste.NomArtiste === Name);
+  const artiste = Artiste.find(artiste => artiste.NomCompletArtiste === Name);
  console.log(artiste);
   // Retourner l'artiste trouvé, ou null s'il n'est pas trouvé
   return artiste;
@@ -51,7 +51,7 @@ function afficheArtiste(nomcompletartiste)
 
 };
 
-function Visite() 
+function Visite(Artiste) 
 {
   // Efface l'écran avant d'afficher les photos
   const artistesContainer = document.getElementById("listeartistes"); 
@@ -116,12 +116,12 @@ fetchPhotos(userId)
       photoElement.onclick = () => openWindow(photo); // Correctly pass 'photo'
       photoElement.setAttribute('class','mediaImg');
       const nomelement = document.createElement("h4");
-      nomelement.innerText = photo.title.split("_")[0];
+      nomelement.innerText = photo.nomcompletartiste;
       const titreelement = document.createElement("h5");
-      titreelement.innerText = photo.title.split("_")[1];
+      titreelement.innerText = photo.titre;
+      oeuvreElement.appendChild(photoElement);
       oeuvreElement.appendChild(nomelement);
       oeuvreElement.appendChild(titreelement);
-      oeuvreElement.appendChild(photoElement);
       photoContainer.appendChild(oeuvreElement);
     });
 
