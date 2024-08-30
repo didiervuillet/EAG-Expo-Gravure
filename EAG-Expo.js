@@ -109,6 +109,7 @@ fetchPhotos(userId)
   
     photos.forEach(photo => {
       const oeuvreElement = document.createElement("oeuvre");
+      oeuvreElement.setAttribute('class','oeuvre');
       const photoElement = document.createElement("img");
       // Utilisez l'opérateur ternaire pour choisir l'URL
       photoElement.src = photo.url_c ? photo.url_c : photo.url_o;  // Affiche url_o si url_c est undefined

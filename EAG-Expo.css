@@ -43,10 +43,21 @@ button{
 	
 	
   }
+  .oeuvre{
+	margin:auto;
+	text-align: center;
+  }
   .mediaImg{
 	border: 5px solid black;
 	height: 200px;
 	text-align: center;
+	margin-bottom: -1em;
+  }
+  h4{
+	margin-bottom: -1em;
+  }
+  h5{
+	margin-bottom: 2em;
   }
   .zoom{
 	border: 5px solid red;
