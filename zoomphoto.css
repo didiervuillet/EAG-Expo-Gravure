@@ -1,10 +1,30 @@
+.zoomoeuvre{
+ 
+  justify-content: center;
+  display : flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 .zoom {
-    width: 500px; 
-    height: 500px;/* Make the image occupy the full width */
+ 
+  width: 500px; 
+    height:500px;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevent default image spacing */
-    margin: 0 auto; /* Center the image */
+    margin: 0; /* Center the image */
+  
   }
+  .textephoto{
+ 
+    text-align: center;
+    margin-bottom: -2em;
+  }
+  h5{
+   
+    margin-bottom: -2em;
+    }
   
   /* Additional styles for the window (optional): */
   body {

@@ -114,7 +114,7 @@ fetchPhotos(userId)
       // Utilisez l'opérateur ternaire pour choisir l'URL
       photoElement.src = photo.url_c ? photo.url_c : photo.url_o;  // Affiche url_o si url_c est undefined
       photoElement.alt = photo.title;
-      photoElement.onclick = () => openWindow(photo); // Correctly pass 'photo'
+      photoElement.onclick = () => openWindow(photos,photo); // Correctly pass 'photo'
       photoElement.setAttribute('class','mediaImg');
       const nomelement = document.createElement("h4");
       nomelement.innerText = photo.nomcompletartiste;
@@ -152,7 +152,7 @@ try {
   console.error('Erreur lors de la récupération de l URL :', error);
 }
 }
-async function openWindow(photo) {
+async function openWindow(photos,photo) {
   
 
   // Create the new window
@@ -161,9 +161,13 @@ async function openWindow(photo) {
     // Write the HTML content after the window is loaded
     newWindow.document.write('<link rel="stylesheet" href="zoomphoto.css">'); 
     newWindow.document.write(`
+       <div class="zoomoeuvre">
       <img src=${photo.url_o} alt="${photo.title}" class="zoom">
-      <p> ${photo.nomcompletartiste}</p>
-      <p> ${photo.titre}</p>
+      <div class="textephoto">
+      <h4> ${photo.nomcompletartiste}</h4>
+      <h5> ${photo.titre}</h5>
+      </div>
+      </div>
     `);
   };
   async function openWindowArtiste(artiste) {
