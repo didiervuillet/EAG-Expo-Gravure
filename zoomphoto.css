@@ -4,18 +4,29 @@
   display : flex;
   align-items: center;
   flex-direction: column;
+
+.zoomimage{
+ 
+  display:flex;
+  flex-direction: row;
+  btn{
+    border:solid 5px black;
+   gap:10px;
+  }
+  img {
+ 
+    width: 400px; 
+      height:400px;
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Prevent default image spacing */
+      margin: 0; /* Center the image */
+    
+    }
+ 
 }
 
 
-.zoom {
- 
-  width: 500px; 
-    height:500px;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevent default image spacing */
-    margin: 0; /* Center the image */
-  
-  }
+
   .textephoto{
  
     text-align: center;
@@ -25,6 +36,7 @@
    
     margin-bottom: -2em;
     }
+  }
   
   /* Additional styles for the window (optional): */
   body {

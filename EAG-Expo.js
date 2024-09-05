@@ -108,6 +108,7 @@ fetchPhotos(userId)
   const photoContainer = document.getElementById("photocontainer");
   
     photos.forEach(photo => {
+     console.log(photos.indexOf(photo));
       const oeuvreElement = document.createElement("oeuvre");
       oeuvreElement.setAttribute('class','oeuvre');
       const photoElement = document.createElement("img");
@@ -152,9 +153,19 @@ try {
   console.error('Erreur lors de la récupération de l URL :', error);
 }
 }
+
+
 async function openWindow(photos,photo) {
   
-
+  let currentphotosIndex =photos.indexOf(photo);
+  
+  function Next(){
+    console.log(currentphotosIndex);
+    currentphotosIndex = (currentphotosIndex + 1) % photos.length; // Cycle through the array
+    newWindow.document.getElementById("nomartiste").innerHTML = photos[currentphotosIndex].nomcompletartiste;
+    newWindow.document.getElementById("titrephoto").innerHTML = photos[currentphotosIndex].titre;
+    newWindow.document.getElementById("photoImage").src = photos[currentPersonIndex].photo;
+  }
   // Create the new window
   const newWindow = window.open("", "zoomphoto", "width=500,height=500");
 
@@ -162,12 +173,16 @@ async function openWindow(photos,photo) {
     newWindow.document.write('<link rel="stylesheet" href="zoomphoto.css">'); 
     newWindow.document.write(`
        <div class="zoomoeuvre">
-      <img src=${photo.url_o} alt="${photo.title}" class="zoom">
-      <div class="textephoto">
-      <h4> ${photo.nomcompletartiste}</h4>
-      <h5> ${photo.titre}</h5>
-      </div>
-      </div>
+         <div class="zoomimage">
+      
+           <img id="photoimage" src=${photos[currentphotosIndex].url_o} alt="${photos[currentphotosIndex].title}">
+        
+         </div>
+          <div class="textephoto">
+            <h4 id="nomartiste"> ${photos[currentphotosIndex].nomcompletartiste}</h4>
+            <h5 id="titrephoto"> ${photos[currentphotosIndex].titre}</h5>
+          </div>
+       </div>
     `);
   };
   async function openWindowArtiste(artiste) {
