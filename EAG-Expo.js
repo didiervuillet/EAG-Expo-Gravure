@@ -190,7 +190,6 @@ async function openWindow(photos,photo) {
 
     // Create the new window
     const newWindow = window.open("", "zoomphoto", "width=500,height=500");
-  
       // Write the HTML content after the window is loaded
       newWindow.document.write('<link rel="stylesheet" href="zoomartiste.css">'); 
       newWindow.document.write(`
