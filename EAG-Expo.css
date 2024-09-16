@@ -16,7 +16,7 @@ button{
 }
 .body{
 .main{
-	width: 1000px;
+	
 	flex-direction: column;	
 }
 }
@@ -35,22 +35,24 @@ button{
 	text-align: center;
 }
 #photocontainer{
-	border-radius:5px green;
 	
-	width:fit-content;
+	padding-top: 1rem;;
+	width: fit-content;
 	flex: 1;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 40rem);
 	
 	
-  }
+}
   .oeuvre{
-	margin:1rem;
+	
+	padding-top:3rem;
 	text-align: center;
 	h5{
 		margin-top:-1rem;	
 	}
   }
+
   .mediaImg{
 	border: 5px solid black;
 	height: 300px;
@@ -58,14 +60,8 @@ button{
 	margin-bottom: -1em;
   }
   
-  h5{
-	margin-bottom: 0em;
-  }
-  .zoom{
-	border: 5px solid red;
-	width: 500;
-	height: 500;
-  }
+ 
+
   
 	
 
