@@ -15,9 +15,9 @@
   }
   img {
  
-    width: 400px; 
-      height:400px;
-      height: auto; /* Maintain aspect ratio */
+    width: auto; 
+   
+      height: 500px; /* Maintain aspect ratio */
       display: block; /* Prevent default image spacing */
       margin: 0; /* Center the image */
     

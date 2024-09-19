@@ -9,6 +9,7 @@ URL pour selectionner toutes les photos de l exposition gravure resultat en form
 https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=b000733577cbe9e78d6a4112a411960c&user_id=201112550@N08&format=json&nojsoncallback=1
 
 Reste à faire :
+- vérifier les dates et l'adresse
 - compléter les oeuvres dans la pasta en normalisant les noms de fichiers
 - réduire la taille en Mo des photos trop volumineuses
 - copier le tout dans flickr
