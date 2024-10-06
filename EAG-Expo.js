@@ -80,6 +80,9 @@ async function fetchPhotos(userId) {
           title: photo.title,
           nomcompletartiste:photo.title.split("_")[0],
           titre : photo.title.split("_")[1],
+          technique: photo.title.split("_")[2],
+          taille: photo.title.split("_")[3],
+          prix : photo.title.split("_")[4],
           url_c: photo.url_c,
           url_h: photo.url_h, 
           url_o: photo.url_o,
@@ -121,9 +124,15 @@ fetchPhotos(userId)
       nomelement.innerText = photo.nomcompletartiste;
       const titreelement = document.createElement("h5");
       titreelement.innerText = photo.titre;
+      const techniqueelement = document.createElement("h6");
+      techniqueelement.innerText = photo.technique;
+      const tailleelement = document.createElement("h6");
+      tailleelement.innerText = photo.taille;
       oeuvreElement.appendChild(photoElement);
       oeuvreElement.appendChild(nomelement);
       oeuvreElement.appendChild(titreelement);
+      oeuvreElement.appendChild(techniqueelement);
+      oeuvreElement.appendChild(tailleelement);
       photoContainer.appendChild(oeuvreElement);
     });
 

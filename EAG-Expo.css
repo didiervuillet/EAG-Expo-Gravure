@@ -4,6 +4,7 @@ h1{
 .header{
 	display:flex;
 	flex-direction: column;	
+	text-align: center;
 	}
 
 #container{
@@ -12,6 +13,7 @@ button{
 		width: 60px;;
 		border-color: chartreuse;
 		margin: 10px;
+		text-align: center;
 	}
 }
 .body{
@@ -50,6 +52,9 @@ button{
 	text-align: center;
 	h5{
 		margin-top:-1rem;	
+	}
+	h6{
+		margin-top:-20px;	
 	}
   }
 
