@@ -128,11 +128,14 @@ fetchPhotos(userId)
       techniqueelement.innerText = photo.technique;
       const tailleelement = document.createElement("h6");
       tailleelement.innerText = photo.taille;
+      const prixelement = document.createElement("h6");
+      prixelement.innerText = photo.prix;
       oeuvreElement.appendChild(photoElement);
       oeuvreElement.appendChild(nomelement);
       oeuvreElement.appendChild(titreelement);
       oeuvreElement.appendChild(techniqueelement);
       oeuvreElement.appendChild(tailleelement);
+      oeuvreElement.appendChild(prixelement);
       photoContainer.appendChild(oeuvreElement);
     });
 
